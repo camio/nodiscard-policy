@@ -55,10 +55,10 @@
    - SOMETIMES present on ~operator==~
 ** Clang Tidy
    \\
-   - modernize-use-nodiscard
+   - [[https://clang.llvm.org/extra/clang-tidy/checks/modernize/use-nodiscard.html][modernize-use-nodiscard]]
      - Add ~[​[nodiscard]​]~ to non-void, non-template, const member functions that
        return.
-   - bugprone-unused-return-value
+   - [[https://clang.llvm.org/extra/clang-tidy/checks/bugprone/unused-return-value.html][bugprone-unused-return-value]]
      - Specific functions (e.g. ~isspace~, ~lower_bound~)
      - Specific return types (e.g. ~error_condition~, ~expected~)
 * Important observations
